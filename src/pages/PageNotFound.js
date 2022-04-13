@@ -5,7 +5,7 @@ import pageNotFoundImage from "../images/Free-404-Error-Page.jpg";
 const PageNotFound = () => {
   return (
     <div>
-      <img src={pageNotFoundImage} alt="image" />
+      <img src={pageNotFoundImage} alt="page Not found" />
       <Link to={"/quotes"} className={"centered btn"}>
         Return Home
       </Link>
