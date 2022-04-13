@@ -14,18 +14,18 @@ import useHttp from "../hooks/use-http";
 import { getSingleQuote } from "../lib/api";
 import LoadingSpinner from "../components/UI/LoadingSpinner";
 
-const DUMMY_DATA = [
-  {
-    id: "q1",
-    author: "Unkown",
-    text: "The purpose of our lives is to be happy",
-  },
-  {
-    id: "q2",
-    author: "Chetu",
-    text: "What makes you different today,it'll make you special tmrw :)",
-  },
-];
+// const DUMMY_DATA = [
+//   {
+//     id: "q1",
+//     author: "Unkown",
+//     text: "The purpose of our lives is to be happy",
+//   },
+//   {
+//     id: "q2",
+//     author: "Chetu",
+//     text: "What makes you different today,it'll make you special tmrw :)",
+//   },
+// ];
 
 const QuoteDetail = () => {
   const { quoteId } = useParams();
